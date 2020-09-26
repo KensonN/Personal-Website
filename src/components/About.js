@@ -11,6 +11,7 @@ const styles = themes => ({
     },
     paragraph: {
         fontWeight: "normal",
+        paddingTop: "4%",
     },
     container: {
         paddingTop: "3%",
