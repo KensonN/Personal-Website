@@ -1,6 +1,5 @@
 import React from "react";
 import { AppBar, Toolbar, Typography, Button, withStyles } from "@material-ui/core";
-import { red } from "@material-ui/core/colors";
 
 const styles = {
   typographyStyles: {
