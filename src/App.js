@@ -10,7 +10,7 @@ const styles = theme => ({
     height: "100%",
     widht: "100%",
     position: "fixed",
-    overflowY: "scroll",
+    overflowY: "auto",
   },
   copyright: {
     paddingTop: "2.5%",
@@ -37,7 +37,7 @@ class App extends React.Component {
   render() {
     const {classes} = this.props;
     return (
-    <Paper className={classes.root}>
+    <Paper className={classes.root} square={true}>
         <Grid container direction={'row'}>
           <Grid item xs={12}>
             <Header />
