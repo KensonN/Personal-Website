@@ -21,7 +21,6 @@ const styles = theme => ({
 class ProjectCard extends React.Component {
     render() {
         const {classes, title, skills, description, imgPath, date, link} = this.props;
-        console.log(imgPath)
         const profilePath = process.env.PUBLIC_URL + "/images/profile.png";
         return (
             <Card className={classes.root}>

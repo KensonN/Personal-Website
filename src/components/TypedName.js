@@ -15,7 +15,9 @@ const styles = theme => ({
         backdropFilter: "brightness(0.4)",        
     },
     name: {
-        fontSize: "10rem",
+        [theme.breakpoints.up('md')]: {
+            fontSize: "12rem",
+        }
     }
 });
   

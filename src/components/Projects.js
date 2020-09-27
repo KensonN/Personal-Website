@@ -13,7 +13,7 @@ class Projects extends React.Component {
     render() {
         const getProjects = (projectObj) => {
             return (
-            <Grid item xs={6}>
+            <Grid item xs={12} md={6}>
                 <ProjectCard {...projectObj} />
             </Grid>
         )}
