@@ -4,7 +4,7 @@ import {withStyles, Typography, Card, CardActionArea, CardContent, CardMedia, Bu
 const styles = theme => ({
     root: {
         maxWidth: "70rem",
-        backgroundColor: "#292828"
+        //backgroundColor: "#292828"
       },
       media: {
         height: "25rem",
