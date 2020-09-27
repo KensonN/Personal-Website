@@ -8,6 +8,7 @@ const styles = theme => ({
       },
       media: {
         height: "25rem",
+        border: 0,
       },
       paragraph: {
           fontWeight: "normal",
@@ -20,17 +21,24 @@ const styles = theme => ({
 
 class ProjectCard extends React.Component {
     render() {
-        const {classes, title, skills, description, imgPath, date, link} = this.props;
+        let {classes, title, skills, description, imgPath, date, component, src} = this.props;
         const profilePath = process.env.PUBLIC_URL + "/images/profile.png";
+        if (component === "img") {
+            imgPath = process.env.PUBLIC_URL + " /images/" + imgPath;
+        }
         return (
             <Card className={classes.root}>
-                <CardActionArea>
+                {/* <CardActionArea> */}
                     <CardMedia
                     className={classes.media}
-                    image= {process.env.PUBLIC_URL + " /images/" + imgPath}
-                    title="Contemplative Reptile"
+                    component={component}
+                    image= {imgPath}
+                    title={title}
+                    src={src}
+                    controls
                     />
-                    <CardContent>
+                {/* </CardActionArea> */}
+                <CardContent>
                         <Typography gutterBottom variant="h3">
                             {title}
                         </Typography>
@@ -44,7 +52,6 @@ class ProjectCard extends React.Component {
                             {date} 
                         </Typography>
                     </CardContent>
-                </CardActionArea>
             </Card>
         );
     }

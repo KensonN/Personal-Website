@@ -20,7 +20,7 @@ class Projects extends React.Component {
     render() {
         const getProjects = (projectObj) => {
             return (
-            <Grid item xs={12} md={6} xl={3}>
+            <Grid item xs={12} md={6} xl={3} key={projectObj.title}>
                 <ProjectCard {...projectObj} />
             </Grid>
         )}
