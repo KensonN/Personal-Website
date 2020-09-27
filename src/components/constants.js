@@ -16,7 +16,7 @@ export default [
     {
         title: "Logitech G910 Lighting for Music Shows",
         skills: "C++",
-        description: "As part of junior year project, I learned and wrote a C++ program to control the LEDS on the Logitech G910 keyboard. The keyboard has an individually addressable RGB LED under each key which can be programmed by the Logitech Lighting SDK. I wrote a program that generated lighting effects upon the press of certain keys, inspired by how visual jockeys manually control stage effects and visuals at electronic music shows.",
+        description: "As part of a junior year project, I learned and wrote a C++ program to control the LEDS on the Logitech G910 keyboard. The keyboard has an individually addressable RGB LED under each key which can be programmed by the Logitech Lighting SDK. I wrote a program that generated lighting effects upon the press of certain keys, inspired by how visual jockeys manually control stage effects and visuals at electronic music shows.",
         imgPath: "genius.gif",
         date: "February 2017",
     },
