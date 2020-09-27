@@ -14,7 +14,7 @@ const styles = theme => ({
     overflowY: "auto",
   },
   copyright: {
-    paddingTop: "2.5%",
+    padding: "1.5% 0% 0.5% 0%",
   }
 });
 
