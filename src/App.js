@@ -2,13 +2,14 @@ import React from 'react';
 import './App.css';
 import { Grid, withStyles, Paper, Typography, Link } from "@material-ui/core";
 import Header from './components/Header';
-import Typing from './components/Typing';
-import About from './components/About'
+import TypedName from './components/TypedName';
+import About from './components/About';
+import Projects from './components/Projects'
 
 const styles = theme => ({
   root: {
     height: "100%",
-    widht: "100%",
+    width: "100%",
     position: "fixed",
     overflowY: "auto",
   },
@@ -43,10 +44,13 @@ class App extends React.Component {
             <Header />
           </Grid>
           <Grid item xs={12}>
-            <Typing />
+            <TypedName />
           </Grid>
           <Grid item xs={12}>
             <About />
+          </Grid>
+          <Grid item xs={12}>
+            <Projects />
           </Grid>
         </Grid>
         <div className={classes.copyright}>
