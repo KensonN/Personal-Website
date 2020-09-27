@@ -34,10 +34,7 @@ class About extends React.Component {
                         About Me
                     </Typography>
                     <Typography variant={"h6"} className={classes.paragraph}>
-                        Hey there! I'm a Electrical Engineering sopohmore at UCLA's Henry Samueli School of Engineering. Other than studies, I'm involved with Bruin Racing SuperMileage Vehicle
-                        and IEEE.
-                        My interests are always evolving, so I chose to study EE to be in a field with tons of flexibility. Here, I hope to showcase some projects I've worked on. Thanks
-                        for stopping by!
+                        Hey there! I'm a Electrical Engineering sopohmore at UCLA's Henry Samueli School of Engineering. Other than studies, I'm involved with  Bruin Racing SuperMileage Vehicle and IEEE. My interests are always evolving, so I chose to study EE to be in a field with tons of flexibility. Here, I hope to showcase some projects I've worked on. Thanks for stopping by!
                     </Typography>
                 </Grid>
                 <Grid item md={1} xs={1} >

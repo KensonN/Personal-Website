@@ -9,7 +9,7 @@ export default [
     {
         title: "Bluetooth Speaker with RGB Matrix",
         skills: "Arduino, C++",
-        description: "I assembled a speaker using schematics found online. The speaker hardware consisted of two 3.5\" tweeters connected to a BlueTooth capable audio board. The speaker included an electret microphone connected to an Arduino Mega to sample the audio of the music being played. The audio sample was then processed and converted into audio-reactive lighting effects. These effects were displayed on the 16x16 individually addressable LED matrix affixed to the front of the speaker enclosure. The enclosure was constructed using plywood and MDF.",
+        description: "I assembled a speaker using schematics found online. The speaker hardware consisted of two 3.5\" tweeters connected to a Bluetooth capable audio board. The speaker included an electret microphone connected to an Arduino Mega to sample the audio of the music being played. The audio sample was then processed and converted into audio-reactive lighting effects. These effects were displayed on the 16x16 individually addressable LED matrix affixed to the front of the speaker enclosure. The enclosure was constructed using plywood and MDF.",
         imgPath: "speaker.jpg",
         date: "June - July 2018"
     },
