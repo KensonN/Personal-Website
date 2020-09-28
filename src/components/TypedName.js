@@ -14,18 +14,19 @@ const styles = theme => ({
         height: "100%",
     },
     name: {
-        [theme.breakpoints.down('xs')]: {
-            fontSize: "5rem",
-        },
-        [theme.breakpoints.up('sm')]: {
-            fontSize: "7rem",
-        },
-        [theme.breakpoints.up('md')]: {
-            fontSize: "9rem",
-        },
-        [theme.breakpoints.up('lg')]: {
-            fontSize: "12rem",
-        },
+        // [theme.breakpoints.down('xs')]: {
+        //     fontSize: "5rem",
+        // },
+        // [theme.breakpoints.up('sm')]: {
+        //     fontSize: "7rem",
+        // },
+        // [theme.breakpoints.up('md')]: {
+        //     fontSize: "9rem",
+        // },
+        // [theme.breakpoints.up('lg')]: {
+        //     fontSize: "12rem",
+        // },
+        fontSize: "11vw"
     }
 });
   
