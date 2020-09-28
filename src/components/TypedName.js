@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Typography, withStyles } from "@material-ui/core";
 import Typed from 'typed.js'
 
-const backgroundPath = process.env.PUBLIC_URL + "/images/VectorPhone.jpg";
+const backgroundPath = process.env.PUBLIC_URL + "/images/background.png";
 
 
 const styles = theme => ({
@@ -12,7 +12,6 @@ const styles = theme => ({
     },
     nameContainer: {
         height: "100%",
-        backdropFilter: "brightness(0.4)",        
     },
     name: {
         [theme.breakpoints.up('md')]: {
